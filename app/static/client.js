@@ -34,7 +34,7 @@ function analyze() {
       var response = JSON.parse(e.target.responseText);
       el("result-label").innerHTML = `圖像為:  ${response["result"]}`;
     }
-    el("analyze-button").innerHTML = "送出分析";
+    el("analyze-button").innerHTML = "送出";
   };
 
   var fileData = new FormData();
